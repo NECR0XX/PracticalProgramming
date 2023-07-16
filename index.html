@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>TAGS</h3>
+
+        <!--OPTGROUP-->
+    <fieldset> <!--Borda-->
+        <legend>Na orquestra</legend> <!--Legenda-->
+        <label for="escolha">Escolha um instrumento</label>
+        <select id="escolha" name="escolha">
+            <option>Selecione...</option>
+            <optgroup label="Cordas"> <!--Agrupar elementos organizando o seu conteúdo-->
+                <option value="Violino">Violino</option>
+                <option value="Violino2">Violino 2</option>
+            </optgroup>
+        <optgroup label="Sopros">
+            <option value="Flauta">Flauta</option>
+            <option value="Flauta2">Flauta 2</option>
+        </optgroup>
+        </select>
+    </fieldset>
+
+    </br>
+
+        <!--ABBR--> <!--Abreviação-->
+    <fieldset>
+        <p>
+            The <abbr title="World Health Organization">WHO</abbr> was founded in 1948
+        </p>
+    </fieldset>
+
+    </br>
+
+        <!--ADDRESS-->
+    <fieldset>
+        <address>
+            contate-nos em:</br>
+            @necroxxprog no insta<br>
+            e já se meu perfil no insta<br>
+            @necroxx
+        </address>
+    </fieldset>
+
+    </br>
+
+        <!--DATALIST--> <!--Especifica valores predefinidos de opções para uma tag INPUT-->
+    <fieldset>
+        <label for="estilo">Qual seu estilo musical ?</label>
+            <input id="estilo" name="estilo" type="text" list="listaestilos">
+                <datalist id="listaestilos"><br>Escolha entre esses
+            <option value="Samba">
+            <option value="Valsa">
+            <option value="Sertanejo">
+            <option value="Eletrônica">
+            <option value="Phonk">
+                </datalist>
+    </fieldset>
+
+    </br>
+
+        <!--WBR--> <!--Posição no texto onde o navegador pode, opcionalmente, quebrar uma linha-->
+    <fieldset>
+        <p>Lorem ipsum dolor<wbr> sit amet. Vel dignissimos atque At enim quis sit internos maiores
+        qui enim libero <wbr>aut dignissimos libero et nulla eligendi<wbr> id autem dolorem. Aut modi iure
+        qui deleniti rerum aut<wbr> assumenda tempore qui molestiae illum.</p>
+    </fieldset>
+
+    </br>
+
+        <!--DETAILS-->
+    <fieldset>
+        <details>
+            <summary>Click para ver os detalhes</summary>
+            <p>Abacaxi é um fruta :) </p>
+        </details>
+    </fieldset>
+
+    </br>
+
+    <h3>ATRIBUTOS</h3>
+
+    </br>
+
+        <!--MULTIPLE--> <!--Permita que o usuário insira vários valores em um input-->
+    <fieldset>
+        <input type="file" multiple>
+    </fieldset>
+    
+    </br>
+
+        <!--TRANSLATE--> <!--Diz ao navegador se o conteúdo deverá ser traduzido ou não-->
+    <fieldset>
+        <p translate="no">Do not translate this content</p>
+    </fieldset>
+
+    </br>
+
+        <!--DOWNLOAD--> <!--Baixe o arquivo ao clicar no link, sem a necessidade de navegar por outras páginas-->
+    <fieldset>
+        <a href="test.html" download="La creme.png">Baixe Aqui!</a>
+    </fieldset>
+
+    </br>
+
+        <!--SPELLCHECK--> <!--É usado para verificar a ortografia e gramática em elementos html-->
+    <fieldset>
+        <p contenteditable="true" spellcheck="true">Programação é muito divertido</p> <!--contenteditable - Para o usuário poder editar o texto no site-->    
+    </fieldset>
+
+    </br>
+
+        <!--POSTER--> <!--Mostrar uma imagem durante um download do video ou até que o usuario pressione o botão de reprodução-->
+    <fieldset>
+        <video src="https://www.youtube.com/watch?v=ghOZpvQ1V-k" poster="La creme.png"></video>        
+    </fieldset>
+
+</body>
+</html>
